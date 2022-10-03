@@ -43,4 +43,18 @@ ansible-galaxy install -r requirements.yaml
 ansible-playbook main.yaml --ask-become-pass
 ```
 
-_This will ask you for "BECOME password:". Enter your account password to proceed.
+_This will ask you for "BECOME password:". Enter your account password to proceed._
+
+## Further steps
+
+- Login to 1Password
+- Login to Firefox & set as default browser
+- Login to MEGAsync
+- Login to ProtonBridge & install profile
+
+## Pending automations
+
+- [ ] Configure synced folders of MEGAsync
+- [ ] Setup ssh keys & add to 1Password + GitHub
+- [ ] Setup Time Machine backup (including [TimeMachineEditor](https://tclementdev.com/timemachineeditor/))
+
