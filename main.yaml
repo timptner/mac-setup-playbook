@@ -2,6 +2,7 @@
 - hosts: all
   vars:
     - homebrew_installed_packages:
+      - biber
       - gettext
       - git
       - texlive
