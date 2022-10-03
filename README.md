@@ -17,10 +17,20 @@ pip3 install --upgrade pip
 pip3 install ansible
 ```
 
-3. Clone this repo
+3. Clone this repository to local drive
 
 ```shell
 git clone https://github.com/timptner/mac-setup-playbook
 ```
 
+4. Pull dependencies from ansible galaxy
 
+```shell
+ansible-galaxy install -r requirements.yaml
+```
+
+5. Run playbook with sudo priviliges
+
+```shell
+ansible-playbook main.yaml --ask-become-pass
+```
