@@ -51,6 +51,7 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - Login to Firefox & set as default browser
 - Login to MEGAsync
 - Login to ProtonBridge & install profile
+- Login to PDF Expert
 
 ## Pending automations
 
