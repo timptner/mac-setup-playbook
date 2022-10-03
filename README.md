@@ -17,20 +17,30 @@ pip3 install --upgrade pip
 pip3 install ansible
 ```
 
-3. Clone this repository to local drive
+3. Add python executables to PATH variable
+
+```shell
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+```
+
+_This will only be valid for the current terminal session. We will add it again later with .zshrc files._
+
+4. Clone this repository to local drive
 
 ```shell
 git clone https://github.com/timptner/mac-setup-playbook
 ```
 
-4. Pull dependencies from ansible galaxy
+5. Pull dependencies from ansible galaxy
 
 ```shell
 ansible-galaxy install -r requirements.yaml
 ```
 
-5. Run playbook with sudo priviliges
+6. Run playbook with sudo priviliges
 
 ```shell
 ansible-playbook main.yaml --ask-become-pass
 ```
+
+_This will ask you for "BECOME password:". Enter your account password to proceed.
