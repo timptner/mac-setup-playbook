@@ -1,5 +1,18 @@
 ---
 - hosts: all
+  vars:
+    - homebrew_installed_packages:
+      - gettext
+      - git
+    - homebrew_taps:
+      - homebrew/core
+      - homebrew/cask
+    - homebrew_cask_appdir: /Applications
+    - homebrew_cask_apps:
+      - docker
+      - firefox
+      - slack
+      - sublime-text
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
