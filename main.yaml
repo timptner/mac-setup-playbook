@@ -4,13 +4,20 @@
     - homebrew_installed_packages:
       - gettext
       - git
+      - texlive
     - homebrew_taps:
       - homebrew/core
       - homebrew/cask
     - homebrew_cask_appdir: /Applications
     - homebrew_cask_apps:
+      - 1password
+      - discord
       - docker
       - firefox
+      - istat-menus
+      - megacmd
+      - megasync
+      - protonmail-bridge
       - slack
       - sublime-text
   roles:
