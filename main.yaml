@@ -18,13 +18,17 @@
       - istat-menus
       - megacmd
       - megasync
+      - obsidian
       - pdf-expert
       - protonmail-bridge
       - slack
       - spotify
       - sublime-text
+      - telegram
+      - typora
     - mas_installed_apps:
       - { id: 441258766, name: "Magnet" }
+      - { id: 1278508951, name: "Trello" }
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew

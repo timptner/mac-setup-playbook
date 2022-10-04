@@ -54,6 +54,7 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - Login to PDF Expert
 - Login to Spotify
 - Activate Magnet in System Preferences
+- Login to Telegram
 
 ## Pending automations
 
@@ -61,3 +62,5 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - [ ] Setup ssh keys & add to 1Password + GitHub
 - [ ] Setup Time Machine backup (including [TimeMachineEditor](https://tclementdev.com/timemachineeditor/))
 - [ ] Add dot-Files (Sublime, Zsh, macOS)
+- [ ] Configure Sublime (Install Package Controll, LatexTools, LaTeXYZ)
+- [ ] Configure Obsidian (Install Plugins: File Explorer Markdown Titles; Config: Show line numbers)
