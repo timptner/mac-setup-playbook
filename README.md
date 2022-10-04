@@ -60,3 +60,4 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - [ ] Configure synced folders of MEGAsync
 - [ ] Setup ssh keys & add to 1Password + GitHub
 - [ ] Setup Time Machine backup (including [TimeMachineEditor](https://tclementdev.com/timemachineeditor/))
+- [ ] Add dot-Files (Sublime, Zsh, macOS)
