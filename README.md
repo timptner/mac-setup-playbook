@@ -52,10 +52,11 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - Login to MEGAsync
 - Login to ProtonBridge & install profile
 - Login to PDF Expert
+- Login to Spotify
+- Activate Magnet in System Preferences
 
 ## Pending automations
 
 - [ ] Configure synced folders of MEGAsync
 - [ ] Setup ssh keys & add to 1Password + GitHub
 - [ ] Setup Time Machine backup (including [TimeMachineEditor](https://tclementdev.com/timemachineeditor/))
-

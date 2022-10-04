@@ -21,7 +21,11 @@
       - pdf-expert
       - protonmail-bridge
       - slack
+      - spotify
       - sublime-text
+    - mas_installed_apps:
+      - { id: 441258766, name: "Magnet" }
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
+    - role: geerlingguy.mac.mas
