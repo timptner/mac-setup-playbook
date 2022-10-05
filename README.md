@@ -6,20 +6,20 @@ This playbook installs and configures most of the software for my personal use.
 
 1. Install Apple's command line tools
 
-```shell
+```bash
 xcode-select --install
 ```
 
 2. Upgrade pip & install Ansible via pip
 
-```shell
+```bash
 pip3 install --upgrade pip
 pip3 install ansible
 ```
 
 3. Add python executables to PATH variable
 
-```shell
+```bash
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 ```
 
@@ -27,19 +27,19 @@ _This will only be valid for the current terminal session. We will add it again 
 
 4. Clone this repository to local drive
 
-```shell
+```bash
 git clone https://github.com/timptner/mac-setup-playbook
 ```
 
 5. Pull dependencies from ansible galaxy
 
-```shell
+```bash
 ansible-galaxy install -r requirements.yaml
 ```
 
 6. Run playbook with sudo priviliges
 
-```shell
+```bash
 ansible-playbook main.yaml --ask-become-pass
 ```
 
@@ -53,14 +53,16 @@ _This will ask you for "BECOME password:". Enter your account password to procee
 - Login to ProtonBridge & install profile
 - Login to PDF Expert
 - Login to Spotify
-- Activate Magnet in System Preferences
+- Activate Magnet in System Preferences & set active on startup
 - Login to Telegram
 
 ## Pending automations
 
-- [ ] Configure synced folders of MEGAsync
+- [ ] Configure synced folders of MEGAsync (Literatur, Notizen)
 - [ ] Setup ssh keys & add to 1Password + GitHub
 - [ ] Setup Time Machine backup (including [TimeMachineEditor](https://tclementdev.com/timemachineeditor/))
-- [ ] Add dot-Files (Sublime, Zsh, macOS)
+- [x] Add dot-Files (Sublime, Zsh, macOS)
+- [ ] Symlink dotfiles to ~
 - [ ] Configure Sublime (Install Package Controll, LatexTools, LaTeXYZ)
 - [ ] Configure Obsidian (Install Plugins: File Explorer Markdown Titles; Config: Show line numbers)
+- [ ] Configure macOS (Deactivate Guest User)
