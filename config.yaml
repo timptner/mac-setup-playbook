@@ -1,0 +1,86 @@
+---
+dockitems_remove:
+  - Launchpad
+  - Safari
+  - Nachrichten
+  - Karten
+  - FaceTime
+  - Kontakte
+  - Erinnerungen
+  - Freeform
+  - TV
+  - Musik
+  - "App Store"
+  - Systemeinstellungen
+
+dockitems_persist:
+  - name: "1Password"
+    path: "/Applications/1Password.app"
+    pos: 1
+  - name: "Firefox"
+    path: "/Applications/Firefox.app"
+    pos: 2
+  - name: "Terminal"
+    path: "/System/Applications/Utilities/Terminal.app"
+    pos: 3
+  - name: "Sublime Text"
+    path: "/Applications/Sublime Text.app/"
+    pos: 4
+  # - name: "Typora"
+  #   path: "/Applications/Typora.app/"
+  #   pos: 4
+  # - name: "JabRef"
+  #   path: "/Applications/JabRef.app"
+  #   pos: 6
+  # - name: "Trello"
+  #   path: "/Applications/Trello.app"
+  #   pos: 7
+  - name: "Kalender"
+    path: "/System/Applications/Calendar.app"
+    pos: 5
+  - name: "Mail"
+    path: "/System/Applications/Mail.app"
+    pos: 6
+  - name: "Telegram"
+    path: "/Applications/Telegram.app"
+    pos: 7
+  # - name: "Discord"
+  #   path: "/Applications/Discord.app"
+  #   pos: 7
+  - name: "Spotify"
+    path: "/Applications/Spotify.app"
+    pos: 8
+  - name: "Fotos"
+    path: "/System/Applications/Photos.app"
+    pos: 9
+
+homebrew_installed_packages:
+  # - biber
+  - gettext
+  - git
+  # - texlive
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  - discord
+  # - docker
+  - firefox
+  - istat-menus
+  # - jabref
+  - megacmd
+  - megasync
+  - pdf-expert
+  - slack
+  - spotify
+  - sublime-text
+  - telegram
+  # - typora
+
+mas_installed_apps:
+  - { id: 441258766, name: "Magnet" }
+  # - { id: 1278508951, name: "Trello" }
