@@ -9,3 +9,11 @@
     - role: geerlingguy.mac.homebrew
     - role: geerlingguy.mac.mas
     - role: geerlingguy.mac.dock
+
+  tasks:
+    - name: Copy dotfiles.
+      ansible.builtin.copy:
+        src: "./dotfiles/{{ item }}"
+        dest: ~/
+      loop:
+        - .zshrc
