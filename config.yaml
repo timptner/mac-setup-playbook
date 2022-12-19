@@ -80,6 +80,8 @@ homebrew_cask_apps:
   - sublime-text
   - telegram
   # - typora
+  - vagrant
+  - virtualbox
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
