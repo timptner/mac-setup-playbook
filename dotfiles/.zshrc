@@ -19,3 +19,7 @@ compinit
 
 # Auto-completion for 1password-cli
 eval "$(op completion zsh)"; compdef _op op
+
+# Add python binaries to path
+path+=("$HOME/Library/Python/3.9/bin")
+export PATH

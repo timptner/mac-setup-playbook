@@ -19,3 +19,7 @@
 - Apple Finder
 - Apple Mail Accounts
 	- OVGU Mail
+- Sublime
+	- Packages
+		- INI
+		- Jinja2
